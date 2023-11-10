@@ -1,0 +1,25 @@
+{
+  "Alliances": [
+    {
+      "id": 1,
+      "name": "Macbook-Air",
+      "price": 60000
+    },
+    {
+      "id": 5,
+      "name": "Mi-11 lite",
+      "price": 21000
+    },
+    {
+      "id": 3,
+      "name": "pen-drive-hp",
+      "price": 749
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ]
+}

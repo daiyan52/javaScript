@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<script>
+    let products = [
+        {"name":"Pen Tablet","cost":2184,"image":"https://m.media-amazon.com/images/I/21H-dJq4Z+L._SY300_SX300_.jpg"},
+        {"name":"Mic","cost":799,"image":"https://m.media-amazon.com/images/I/41qZiOlZjjL._MCnd_AC_.jpg"},
+        {"name":"Pen Drive","cost":749,"image":"https://m.media-amazon.com/images/I/61xNG4wjOuL._AC_UY218_.jpg"},
+        {"name":"Macbook","cost":99999,"image":"https://m.media-amazon.com/images/I/71jG+e7roXL._AC_SR180,120_QL70_.jpg"},
+        {"name":"Smart Watch","cost":1299,"image":"https://m.media-amazon.com/images/I/61ZrPtiuqSL._SL1500_.jpg"}
+    ];
+   document.write(`
+   <table align="center"
+   border="1"
+   cellspacing="10px"
+   cellpadding="10px"
+    >
+        <tr>
+            <th>Product Name</th>
+            <th>Cost</th>
+            <th>Image</th>
+        </tr>
+    </table>
+   `)
+
+   products.forEach((record)=>{
+    document.write(`
+     <table
+     align="center"
+     cellspacing="10px"
+     cellpadding="10px"
+     >
+        <tr>
+            <td>${record.name}</td>
+            <td>${record.cost}</td>
+            <td><img width="40px" src=${record.image}></td>
+    </tr>
+    </table>
+    `)
+   })
+</script>

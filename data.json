@@ -1,0 +1,22 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "Daiyan",
+      "skills": "Angular"
+    },
+    {
+      "id": "2",
+      "name": "Raju",
+      "skills": "Reactjs"
+    },
+    {
+      "id": "3",
+      "name": "Anish",
+      "skills": "Node js"
+    },
+    {
+      "id": "8vIhcf_"
+    }
+  ]
+}

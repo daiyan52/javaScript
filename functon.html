@@ -1,0 +1,76 @@
+<!-- lecture 7 -->
+
+<!-- 
+<script>
+    function fun_one(){
+        return fun_two;
+    }
+    function fun_two(){
+        return "Hello"
+    }
+    document.write(fun_one())  //output function definition
+    document.write(fun_one())  //hello
+</script> -->
+
+<!-- <script>
+    let arr=[];
+    function fun_one(){
+        return "Hello";
+    }
+    for(let i=0;i<5;i++){
+        arr.push(fun_one())
+    }
+    // document.write(arr);
+    for(j=0;j<arr.length;j++){
+        document.write(arr[j]+"  ");
+    }
+</script> -->
+
+<!-- <script>
+    function fun_one(){
+        return 'Hello';
+    }
+    setTimeout(function(){
+        document.write(fun_one())
+    },5000)
+</script> -->
+
+<!-- <script>
+    function fun_one(){
+        return "hello"
+    }
+    setInterval(function(){
+        document.write(fun_one()+"  ")
+    },200)
+</script> -->
+<!-- 
+<script>
+     for(let i=0;i<5;i++){
+        setTimeout(function(){
+            document.write(i);
+        },2000)
+     }
+     // var = 5 5 5 5 5
+     // let = 0 1 2 3 4
+</script> -->
+
+
+<!-- <script>
+    let arr = ["D","A","I","Y","A","N"];
+    for(let i=0;i<arr.length;i++){
+        setTimeout(function(){
+            document.write(arr[i]+' ');
+        },5000)
+    }
+</script> -->
+
+<script>
+    function fun_one(args2,...arg1){
+        return arg1;
+    }
+    document.write(fun_one("Hello","Hello"));
+    console.log(fun_one());
+    document.write(fun_one(undefined));
+    document.write(null,undefined);
+</script>
+

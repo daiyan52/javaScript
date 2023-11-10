@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ajax</title>
+    <!-- <script src="../node_modules/jquery/src/ajax.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        /*
+        $.ajax({
+            method:"GET",
+            url:"http://localhost:3000/product",
+            success:(posRes)=>{
+                console.log(posRes);
+            },
+            error:(errRes)=>{
+                console.log(errRes);
+            }
+        })
+        */
+       $.ajax({
+        method:"POST",
+        url:"http://localhost:3000/product",
+        data:{"id":"3","name":"p_three","cost":52000},
+        success:(posRes)=>{
+            console.log(posRes);
+        },
+        error:(errRes)=>{
+            console.log(errRes);
+        }
+       })
+    </script>
+</body>
+</html>
